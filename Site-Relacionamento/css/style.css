@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float:right
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+section{    
+    background-image: url(../img/bg-login.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+section::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+#login{
+    text-align: right;
+    margin-top: 15%;
+    margin-right: 10%;
+    font-weight: 700;
+    position: relative;
+    
+}
+
+h1{
+    font-family: vallentina;
+    color: #4f7adb;
+    font-size: 60px;
+}
+
+span{
+    font-family: vallentina;
+    font-size: 80pt;
+    color: #DBB24F;
+}
+
+p{
+    margin:10px 10px 10px 0;
+    color: white;
+    font-size: 20px;
+    
+}
+
+p.cadastro, p.recuperarSenha{
+    display: inline;
+    
+}
+
+.cadastro{
+    margin-right: 30px;
+}
+
+input{
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 200px;
+    height: 25px;
+}
+
+.btn-entrar{
+    width: 80px;
+    background: #4f7adb;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: turquoise;    
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
